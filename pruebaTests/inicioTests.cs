@@ -14,7 +14,7 @@ namespace prueba.Tests
         public void loginTest()
         {
             string usuario = "kevin";
-            string contra = "123";
+            string contra = "1234";
             inicio met = new inicio();
             Assert.AreEqual(true, met.login(usuario, contra));
         }
